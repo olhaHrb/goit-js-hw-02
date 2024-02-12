@@ -18,9 +18,16 @@ function getShippingCost(country) {
             message = "Sorry, there is no delivery to your country";
             break;
     }
+
+    return (message);
 }
 
-return message;
+getShippingCost("Australia");
+getShippingCost("Germany");
+getShippingCost("China");
+getShippingCost("Chile");
+getShippingCost("Jamaica");
+getShippingCost("Sweden");
 
 
 
